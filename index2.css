@@ -1,0 +1,165 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body background color */
+body {
+    background-color: #f5f5f5; /* Set your desired background color */
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Navigation links styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #555; /* Link color on hover */
+}
+
+/* About Data Science Section */
+#about {
+    background-color: #fff; /* Section background color */
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Resume Section */
+#resume {
+    background-color: #fff; /* Section background color */
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #fff; /* Section background color */
+    padding: 20px;
+    margin: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9; /* Project background color */
+}
+
+.project h3 {
+    margin: 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff; /* Section background color */
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Contact Form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="subject"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333; /* Submit button background color */
+    color: #fff; /* Submit button text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555; /* Submit button background color on hover */
+}
+
+/* Contact Information and Social Media Links */
+h3 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+
+ul li a:hover {
+    color: #555; /* Link color on hover */
+}
+body {
+    background-color: lightgray;
+}
+body {
+    background-image: url('index.html/HTML FORM/download.jpg.');
+    background-size: cover; /* To cover the entire background */
+    background-repeat: no-repeat; /* To prevent repeating the image */
+}
+body {
+    background-color: lightgray; /* Background color */
+    background-image: url('index.html/HTML FORM/download.jpg'); /* Background image */
+    background-size: cover; /* To cover the entire background */
+    background-repeat: no-repeat; /* To prevent repeating the image */
+}
+
+/* Other CSS styles for your elements */
+/* ... */
